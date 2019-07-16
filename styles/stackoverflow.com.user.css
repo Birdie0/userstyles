@@ -1,0 +1,11 @@
+@-moz-document domain("stackoverflow.com"), domain("stackexchange.com"), domain("askubuntu.com") {
+  * {
+    font-family: 'Comic Sans MS' !important;
+  }
+
+  code,
+  pre.prettyprint>code>span {
+    font-family: 'Fantasque Sans Mono', 'Courier New' !important;
+    font-weight: bold;
+  }
+}
