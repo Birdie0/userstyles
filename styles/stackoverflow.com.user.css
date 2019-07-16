@@ -11,7 +11,7 @@
   }
 
   code,
-  pre.prettyprint>code>span {
+  pre.prettyprint > code > span {
     font-family: 'Fantasque Sans Mono', 'Courier New' !important;
     font-weight: bold;
   }
