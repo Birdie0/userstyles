@@ -1,18 +1,33 @@
 /* ==UserStyle==
 @name        Comic StackOverflow.com
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.0
+@version     1.0.1
 @license     MIT License
 ==/UserStyle== */
 
-@-moz-document domain("stackoverflow.com"), domain("stackexchange.com"), domain("askubuntu.com") {
+@-moz-document domain("stackoverflow.com"),
+domain("serverfault.com"),
+domain("superuser.com"),
+domain("stackexchange.com"),
+domain("askubuntu.com"),
+domain("stackapps.com"),
+domain("mathoverflow.net") {
+
+  /* use Comic Sans font everywhere :^) */
+  /* TODO: replace star with text tags */
   * {
-    font-family: 'Comic Sans MS' !important;
+    font-family: 'Comic Sans MS', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
   }
 
+  /* use FSM font if available */
   code,
-  pre.prettyprint > code > span {
-    font-family: 'Fantasque Sans Mono', 'Courier New' !important;
+  .prettyprint>code>span {
+    font-family: 'Fantasque Sans Mono', 'Consolas', 'Menlo', 'Monaco', 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif !important;
     font-weight: bold;
+  }
+
+  /* make share link more noticable */
+  .post-menu>.short-link {
+    color: orange;
   }
 }

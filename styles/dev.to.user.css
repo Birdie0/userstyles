@@ -1,17 +1,20 @@
 /* ==UserStyle==
 @name        Comic Dev.to
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.0
+@version     1.0.1
 @license     MIT License
 ==/UserStyle== */
 
 @-moz-document domain("dev.to") {
+
+  /* use Comic Sans font everywhere :^) */
+  /* TODO: replace star with text tags */
   * {
-    font-family: 'Comic Sans MS' !important;
+    font-family: 'Comic Sans MS', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
   }
 
-  pre.highlight > code > span {
-    font-family: 'Fantasque Sans Mono', 'Courier New' !important;
+  .highlight>code>span {
+    font-family: 'Fantasque Sans Mono', 'Courier New', monospace !important;
     font-weight: bold;
   }
 }
