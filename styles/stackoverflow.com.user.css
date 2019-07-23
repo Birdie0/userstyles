@@ -30,4 +30,7 @@ domain("mathoverflow.net") {
   .post-menu>.short-link {
     color: orange;
   }
+  .post-menu>.short-link:hover {
+    color: darkorange;
+  }
 }
