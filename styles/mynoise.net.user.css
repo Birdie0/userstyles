@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name        Better MyNoise.net
+@namespace   github.com/Birdie0/userstyles
+@version     1.0.0
+@license     MIT License
+==/UserStyle== */
+
+@-moz-document domain("mynoise.net") {
+  /* disable moving & fading background effects */
+  #bgimage {
+    opacity: 1 !important;
+  }
+  #bgcontainer {
+    transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+  }
+
+  /* disable side drawer animations */
+  .Lslide,
+  .Rslide {
+    transition-duration: 0s !important;
+    -o-transition-duration: 0s !important;
+    -webkit-transition-duration: 0s !important;
+  }
+}
