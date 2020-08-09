@@ -16,5 +16,6 @@ You need an extention to use these:
 * [dev.to](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/dev.to.user.css)
 * [fandom.com](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/fandom.com.user.css)
 * [google.com](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/google.com.user.css)
+* [mee6.xyz](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mee6.xyz.user.css)
 * [mynoise.net](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mynoise.net.user.css)
 * [stackoverflow.com](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/stackoverflow.com.user.css)

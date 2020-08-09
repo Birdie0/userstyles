@@ -1,0 +1,43 @@
+/* ==UserStyle==
+@name        MEE6-emoji language picker
+@namespace   github.com/Birdie0/userstyles
+@version     1.0.0
+@license     MIT License
+==/UserStyle== */
+
+@-moz-document domain("mee6.xyz") {
+  span[aria-label$="flag-us"].emoji-mart-emoji > span {
+    background-image: url(https://cdn.discordapp.com/emojis/503959543919935508.png) !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  span[aria-label$="flag-fr"].emoji-mart-emoji > span {
+    background-image: url(https://cdn.discordapp.com/emojis/461520324303781899.png) !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  span[aria-label$="flag-ru"].emoji-mart-emoji > span {
+    background-image: url(https://cdn.discordapp.com/emojis/723914607957377809.png) !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  span[aria-label$="flag-nl"].emoji-mart-emoji > span {
+    background-image: url(https://cdn.discordapp.com/emojis/503959544179720192.png) !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  span[aria-label$="flag-it"].emoji-mart-emoji > span {
+    background-image: url(https://cdn.discordapp.com/emojis/503959544360206336.png) !important;
+    background-size: contain !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+}
