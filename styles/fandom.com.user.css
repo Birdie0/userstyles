@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Cleaner Fandom.com
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.1
+@version     1.0.2
 @license     MIT License
 ==/UserStyle== */
 
@@ -10,7 +10,8 @@
   /* hide fan feed, footer and bottom bar */
   #WikiaFooter,
   #WikiaBar,
-  .wds-global-footer {
+  .wds-global-footer,
+  .mixed-content-footer {
     display: none;
   }
 }
