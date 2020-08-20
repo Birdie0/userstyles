@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Cleaner Fandom.com
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.5
+@version     1.0.6
 @license     MIT License
 ==/UserStyle== */
 
@@ -12,6 +12,6 @@
   #WikiaFooter,
   #mixed-content-footer,
   .wds-global-footer {
-    display: none;
+    display: none !important;
   }
 }
