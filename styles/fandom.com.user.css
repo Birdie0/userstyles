@@ -1,17 +1,16 @@
 /* ==UserStyle==
 @name        Cleaner Fandom.com
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.2
+@version     1.0.3
 @license     MIT License
 ==/UserStyle== */
 
 @-moz-document domain("fandom.com") {
 
   /* hide fan feed, footer and bottom bar */
-  #WikiaFooter,
-  #WikiaBar,
+  #mixed-content-footer,
   .wds-global-footer,
-  .mixed-content-footer {
+  #WikiaBar {
     display: none;
   }
 }
