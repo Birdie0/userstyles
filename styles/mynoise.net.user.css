@@ -1,26 +1,24 @@
 /* ==UserStyle==
 @name        Better MyNoise.net
+@version     1.1.0
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.0
-@license     MIT License
+@description Disable animations for better persofmance
+@author      Birdie0
+@license     MIT
 ==/UserStyle== */
 
 @-moz-document domain("mynoise.net") {
-  /* disable moving & fading background effects */
+  /* disable moving and fading background effects */
   #bgimage {
     opacity: 1 !important;
   }
   #bgcontainer {
     transform: none !important;
-    -ms-transform: none !important;
-    -webkit-transform: none !important;
   }
 
-  /* disable side drawer animations */
-  .Lslide,
-  .Rslide {
+  /* disable side drawers animation */
+  .Lslide, .Rslide {
     transition-duration: 0s !important;
-    -o-transition-duration: 0s !important;
     -webkit-transition-duration: 0s !important;
   }
 }

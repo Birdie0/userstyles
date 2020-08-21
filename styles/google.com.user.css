@@ -1,12 +1,13 @@
 /* ==UserStyle==
 @name        Better Google.com
+@version     1.1.0
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.1
-@license     MIT License
+@description Hide annoying "People also search for" box
+@author      Birdie0
+@license     MIT
 ==/UserStyle== */
 
 @-moz-document regexp("https?://www\\.google\\.(com|[a-z]{2})(\\.[a-z]{2})?/.+") {
-
   /* hides that annoying "People also search for" box which */
   /* appears in second before you're trying to press link below */
   div[jscontroller="m6a0l"] {

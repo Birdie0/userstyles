@@ -19,3 +19,7 @@ You need an extention to use these:
 * [mee6.xyz](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mee6.xyz.user.css)
 * [mynoise.net](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mynoise.net.user.css)
 * [stackoverflow.com](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/stackoverflow.com.user.css)
+
+## P.S.
+
+StackOverflow and Dev styles use drop-in replacement font [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans). Install it for better experience.

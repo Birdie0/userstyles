@@ -1,20 +1,21 @@
 /* ==UserStyle==
-@name        Comic Dev.to
+@name        Comic DEV.to
+@version     1.1.0
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.1
-@license     MIT License
+@description Comic Sans experience, even when not logined
+@author      Birdie0
+@license     MIT
+@var text    monospace-font "Monospace Font" "Fantasque Sans Mono"
 ==/UserStyle== */
 
 @-moz-document domain("dev.to") {
-
   /* use Comic Sans font everywhere :^) */
-  /* TODO: replace star with text tags */
-  * {
-    font-family: 'Comic Sans MS', -apple-system, 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
-  }
-
-  .highlight > code > span {
-    font-family: 'Fantasque Sans Mono', 'Courier New', monospace !important;
-    font-weight: bold;
+  :root {
+    --ff-serif: 'Comic Sans MS', Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia,
+                serif !important;
+    --ff-sans-serif: 'Comic Sans MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+                     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+    --ff-monospace: var(--monospace-font), 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier,
+                    monospace !important;
   }
 }

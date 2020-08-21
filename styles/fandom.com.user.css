@@ -1,17 +1,15 @@
 /* ==UserStyle==
 @name        Cleaner Fandom.com
+@version     1.1.0
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.6
-@license     MIT License
+@description Hide annoying Feed Fan that takes a lot of space
+@author      Birdie0
+@license     MIT
 ==/UserStyle== */
 
 @-moz-document domain("fandom.com") {
-
-  /* hide fan feed, footer and bottom bar */
-  #WikiaBar,
-  #WikiaFooter,
-  #mixed-content-footer,
-  .wds-global-footer {
+  /* hide Fan Feed, footer and bottom bar */
+  #WikiaFooter, #mixed-content-footer, .wds-global-footer, #WikiaBar {
     display: none !important;
   }
 }

@@ -1,36 +1,37 @@
 /* ==UserStyle==
 @name        Comic StackOverflow.com
+@version     1.1.0
 @namespace   github.com/Birdie0/userstyles
-@version     1.0.2
-@license     MIT License
+@description Comic Sans experience
+@author      Birdie0
+@license     MIT
+@var text    monospace-font "Monospace Font" "Fantasque Sans Mono"
 ==/UserStyle== */
 
-@-moz-document domain("stackoverflow.com"),
-domain("serverfault.com"),
-domain("superuser.com"),
-domain("stackexchange.com"),
-domain("askubuntu.com"),
-domain("stackapps.com"),
-domain("mathoverflow.net") {
-
+@-moz-document domain("stackoverflow.com"), domain("serverfault.com"), domain("superuser.com"),
+               domain("stackexchange.com"), domain("askubuntu.com"), domain("stackapps.com"),
+               domain("mathoverflow.net") {
   /* use Comic Sans font everywhere :^) */
-  /* TODO: replace star with text tags */
-  * {
-    font-family: 'Comic Sans MS', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
+  big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
+  dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+  aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    font-family: 'Comic Sans MS', Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
   }
 
-  /* use FSM font if available */
-  code,
-  .prettyprint > code > span {
-    font-family: 'Fantasque Sans Mono', 'Consolas', 'Menlo', 'Monaco', 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif !important;
-    font-weight: bold;
+  /* use Fantasque Sans Mono font if available for inline code blocks and code snippets */
+  code, .prettyprint > code > span {
+    font-family: var(--monospace-font), Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
+                 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif !important;
+    /* font-weight: 600; */
   }
 
   /* make share link more noticable */
-  .post-menu > .js-share-link {
+  .js-share-link {
     color: orange;
   }
-  .post-menu > .js-share-link:hover {
+  .js-share-link:hover {
     color: darkorange;
   }
 }
