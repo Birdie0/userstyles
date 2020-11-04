@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        Comic StackOverflow.com
-@version     1.1.0
+@version     1.1.1
 @namespace   github.com/Birdie0/userstyles
 @description Comic Sans experience
 @author      Birdie0
@@ -29,9 +29,9 @@
 
   /* make share link more noticable */
   .js-share-link {
-    color: orange;
+    color: orange !important;
   }
   .js-share-link:hover {
-    color: darkorange;
+    color: darkorange !important;
   }
 }
