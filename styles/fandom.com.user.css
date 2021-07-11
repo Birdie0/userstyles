@@ -1,15 +1,93 @@
 /* ==UserStyle==
 @name        Cleaner Fandom.com
-@version     1.1.0
-@namespace   github.com/Birdie0/userstyles
-@description Hide annoying Feed Fan that takes a lot of space
+@description Improvements to website look
+@version     2.0.0
 @author      Birdie0
 @license     MIT
+@namespace   github.com/Birdie0/userstyles
+@preprocessor stylus
+
+@var checkbox hide_fan_feed    "Hide Fan Feed"    1
+@var checkbox hide_footer      "Hide Footer"      1
+@var checkbox hide_toolbar     "Hide Toolbar"     1
+@var checkbox hide_right_rail  "Hide Right Rail"  1
+@var checkbox hide_left_bar    "Hide Left Bar"    0
+@var checkbox sticky_header    "Sticky Header"    0
+@var checkbox hide_comments    "Hide Comments"    0
 ==/UserStyle== */
 
 @-moz-document domain("fandom.com") {
-  /* hide Fan Feed, footer and bottom bar */
-  #WikiaFooter, #mixed-content-footer, .wds-global-footer, #WikiaBar {
-    display: none !important;
+  if hide_fan_feed {
+    #mixed-content-footer {
+      display: none !important;
+    }
+  }
+
+  if hide_footer {
+    .wds-global-footer {
+      display: none !important;
+    }
+  }
+
+  if hide_toolbar {
+    #WikiaBar {
+      display: none !important;
+    }
+
+    body.skin-oasis {
+      if hide_footer {
+        padding-bottom: 25px !important;
+      } else {
+        padding-bottom: 0 !important;
+      }
+    }
+  }
+
+  if hide_right_rail {
+    body.skin-oasis #WikiaRailWrapper {
+      display: none !important;
+    }
+
+    body.skin-fandomdesktop .page__right-rail {
+      display: none !important;
+    }
+  }
+
+  if hide_left_bar {
+    body.skin-fandomdesktop {
+      .global-navigation {
+        display: none !important;
+      }
+
+      .fandom-sticky-header {
+        top: -47px !important;
+        left: 0 !important;
+      }
+
+      .main-container {
+        width: 100% !important;
+        margin-left: 0 !important;
+      }
+    }
+  }
+
+  if sticky_header {
+    .fandom-sticky-header {
+      transform: translateY(100%) !important;
+    }
+
+    .community-header-wrapper {
+      display: none !important;
+    }
+
+    .page {
+      margin-top: 40px !important;
+    }
+  }
+
+  if hide_comments {
+    #mw-data-after-content {
+      display: none !important;
+    }
   }
 }
