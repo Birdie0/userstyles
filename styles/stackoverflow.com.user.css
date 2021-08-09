@@ -1,37 +1,27 @@
 /* ==UserStyle==
 @name        Comic StackOverflow.com
-@version     1.1.1
+@version     1.2.0
 @namespace   github.com/Birdie0/userstyles
 @description Comic Sans experience
 @author      Birdie0
 @license     MIT
+@var text    text-font      "Text Font"      "Comic Sans MS"
 @var text    monospace-font "Monospace Font" "Fantasque Sans Mono"
 ==/UserStyle== */
 
-@-moz-document domain("stackoverflow.com"), domain("serverfault.com"), domain("superuser.com"),
-               domain("stackexchange.com"), domain("askubuntu.com"), domain("stackapps.com"),
-               domain("mathoverflow.net") {
-  /* use Comic Sans font everywhere :^) */
-  html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address,
-  big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center,
-  dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
-  aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-  time, mark, audio, video {
-    font-family: 'Comic Sans MS', Arial, 'Helvetica Neue', Helvetica, sans-serif !important;
+@-moz-document domain("askubuntu.com"), domain("mathoverflow.net"), domain("serverfault.com"), domain("stackapps.com"), domain("stackexchange.com"), domain("stackoverflow.com"), domain("superuser.com") {
+  body {
+    /* use Comic Sans  everywhere :^) */
+    --ff-sans: var(--text-font), -apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
+    /* use Fantasque Sans Mono for inline code blocks and code snippets */
+    --ff-mono: var(--monospace-font), ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
   }
 
-  /* use Fantasque Sans Mono font if available for inline code blocks and code snippets */
-  code, .prettyprint > code > span {
-    font-family: var(--monospace-font), Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono',
-                 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, sans-serif !important;
-    /* font-weight: 600; */
-  }
-
-  /* make share link more noticable */
+  /* make share link more noticeable */
   .js-share-link {
-    color: orange !important;
+    color: var(--orange-500) !important;
   }
   .js-share-link:hover {
-    color: darkorange !important;
+    color: var(--orange-400) !important;
   }
 }

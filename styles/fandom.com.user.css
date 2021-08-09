@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Cleaner Fandom.com
 @description Improvements to website look
-@version     2.0.0
+@version     2.2.0
 @author      Birdie0
 @license     MIT
 @namespace   github.com/Birdie0/userstyles
@@ -10,10 +10,11 @@
 @var checkbox hide_fan_feed    "Hide Fan Feed"    1
 @var checkbox hide_footer      "Hide Footer"      1
 @var checkbox hide_toolbar     "Hide Toolbar"     1
-@var checkbox hide_right_rail  "Hide Right Rail"  1
-@var checkbox hide_left_bar    "Hide Left Bar"    0
-@var checkbox sticky_header    "Sticky Header"    0
+@var checkbox hide_right_rail  "Hide Right Rail"  0
+@var checkbox hide_left_bar    "Hide Left Bar*"   0
+@var checkbox sticky_header    "Sticky Header*"   0
 @var checkbox hide_comments    "Hide Comments"    0
+@var checkbox narrow_content   "Narrow Content"   0
 ==/UserStyle== */
 
 @-moz-document domain("fandom.com") {
@@ -44,12 +45,58 @@
   }
 
   if hide_right_rail {
-    body.skin-oasis #WikiaRailWrapper {
-      display: none !important;
+    body.skin-oasis {
+      #WikiaRailWrapper {
+        display: none !important;
+      }
     }
 
-    body.skin-fandomdesktop .page__right-rail {
-      display: none !important;
+    body.skin-fandomdesktop {
+      .page__right-rail {
+        display: none !important;
+      }
+    }
+  }
+
+  if narrow_content {
+    body.skin-oasis {
+      .wds-community-header {
+        height: 115px !important;
+      }
+
+      .wds-community-header__wordmark {
+          height: 49px !important;
+          margin-bottom: 0 !important;
+          max-width: 175px !important;
+      }
+
+      .wds-community-header__local-navigation {
+        clear: both !important;
+      }
+
+      .WikiaSiteWrapper {
+        // width: 768px - 320px !important;
+
+        @media only screen and (min-width: 1024px) {
+          width: 1004px - 320px !important;
+        }
+
+        @media only screen and (min-width: 1084px) {
+          width: 1064px - 320px !important;
+        }
+      }
+    }
+
+    body.skin-fandomdesktop {
+      &.is-content-expanded .resizable-container {
+        max-width: calc(100% - 336px) !important;
+        width: calc(95% - 336px) !important;
+      }
+
+      .resizable-container {
+        max-width: calc(1236px - 336px) !important;
+        width: calc(85% - 336px) !important;
+      }
     }
   }
 
