@@ -1,9 +1,12 @@
 /* ==UserStyle==
 @name        Comic StackOverflow.com
-@version     1.2.0
+@version     1.2.1
 @namespace   github.com/Birdie0/userstyles
 @description Comic Sans experience
 @author      Birdie0
+@homepageURL https://github.com/Birdie0/userstyles
+@supportURL  https://github.com/Birdie0/userstyles/issues
+@updateURL   https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/stackoverflow.com.user.css
 @license     MIT
 @var text    text-font      "Text Font"      "Comic Sans MS"
 @var text    monospace-font "Monospace Font" "Fantasque Sans Mono"

@@ -1,10 +1,13 @@
 /* ==UserStyle==
-@name        Cleaner Fandom.com
-@description Improvements to website look
-@version     2.2.0
-@author      Birdie0
-@license     MIT
-@namespace   github.com/Birdie0/userstyles
+@name         Cleaner Fandom.com
+@version      2.2.1
+@namespace    github.com/Birdie0/userstyles
+@description  Improvements to website look
+@author       Birdie0
+@homepageURL  https://github.com/Birdie0/userstyles
+@supportURL   https://github.com/Birdie0/userstyles/issues
+@updateURL    https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/fandom.com.user.css
+@license      MIT
 @preprocessor stylus
 
 @var checkbox hide_fan_feed    "Hide Fan Feed"    1
