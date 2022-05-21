@@ -11,17 +11,17 @@
 ==/UserStyle== */
 
 @-moz-document domain("mynoise.net") {
-  /* disable moving and fading background effects */
-  #bgimage {
-    opacity: 1 !important;
-  }
-  #bgcontainer {
-    transform: none !important;
-  }
+	/* disable moving and fading background effects */
+	#bgimage {
+		opacity: 1 !important;
+	}
+	#bgcontainer {
+		transform: none !important;
+	}
 
-  /* disable side drawers animation */
-  .Lslide, .Rslide {
-    transition-duration: 0s !important;
-    -webkit-transition-duration: 0s !important;
-  }
+	/* disable side drawers animation */
+	.Lslide, .Rslide {
+		transition-duration: 0s !important;
+		-webkit-transition-duration: 0s !important;
+	}
 }

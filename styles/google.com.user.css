@@ -14,15 +14,15 @@
 ==/UserStyle== */
 
 @-moz-document regexp("^https?://www\\.google\\.(?:com|[a-z]{2})(?:\\.[a-z]{2})?/search\\?.+") {
-  if hide_people_also_search_for {
-    .AUiS2 {
-      display: none !important;
-    }
-  }
+	if hide_people_also_search_for {
+		.AUiS2 {
+			display: none !important;
+		}
+	}
 
-  if hide_related_searches {
-    #botstuff {
-      display: none !important;
-    }
-  }
+	if hide_related_searches {
+		#botstuff {
+			display: none !important;
+		}
+	}
 }

@@ -1,5 +1,5 @@
 {
-  "files.associations": {
-    "*.user.css": "stylus"
-  }
+	"files.associations": {
+		"*.user.css": "stylus"
+	}
 }

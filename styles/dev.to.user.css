@@ -12,13 +12,13 @@
 ==/UserStyle== */
 
 @-moz-document domain("dev.to") {
-  /* use Comic Sans font everywhere :^) */
-  :root {
-    --ff-serif: 'Comic Sans MS', Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia,
-                serif !important;
-    --ff-sans-serif: 'Comic Sans MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
-                     sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
-    --ff-monospace: var(--monospace-font), 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier,
-                    monospace !important;
-  }
+	/* use Comic Sans font everywhere :^) */
+	:root {
+		--ff-serif: 'Comic Sans MS', Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia,
+								serif !important;
+		--ff-sans-serif: 'Comic Sans MS', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial,
+										 sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol' !important;
+		--ff-monospace: var(--monospace-font), 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, Courier,
+										monospace !important;
+	}
 }

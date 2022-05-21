@@ -21,78 +21,78 @@
 ==/UserStyle== */
 
 @-moz-document domain("fandom.com") {
-  if hide_fan_feed {
-    #mixed-content-footer {
-      display: none !important;
-    }
-  }
+	if hide_fan_feed {
+		#mixed-content-footer {
+			display: none !important;
+		}
+	}
 
-  if hide_footer {
-    .global-footer {
-      display: none !important;
-    }
-  }
+	if hide_footer {
+		.global-footer {
+			display: none !important;
+		}
+	}
 
-  if hide_toolbar {
-    #WikiaBar {
-      display: none !important;
-    }
-  }
+	if hide_toolbar {
+		#WikiaBar {
+			display: none !important;
+		}
+	}
 
-  if hide_right_rail {
-    .page__right-rail {
-      display: none !important;
-    }
-  }
+	if hide_right_rail {
+		.page__right-rail {
+			display: none !important;
+		}
+	}
 
-  if narrow_content {
-    body.is-content-expanded .resizable-container {
-        max-width: calc(100% - 336px) !important;
-        width: calc(95% - 336px) !important;
-      }
+	if narrow_content {
+		body.is-content-expanded .resizable-container {
+				max-width: calc(100% - 336px) !important;
+				width: calc(95% - 336px) !important;
+			}
 
-    .resizable-container {
-      max-width: calc(1236px - 336px) !important;
-      width: calc(85% - 336px) !important;
-    }
-  }
+		.resizable-container {
+			max-width: calc(1236px - 336px) !important;
+			width: calc(85% - 336px) !important;
+		}
+	}
 
-  if hide_left_bar {
-    .global-navigation {
-      display: none !important;
-    }
+	if hide_left_bar {
+		.global-navigation {
+			display: none !important;
+		}
 
-    .fandom-sticky-header {
-      left: 0 !important;
-    }
+		.fandom-sticky-header {
+			left: 0 !important;
+		}
 
-    .main-container {
-      width: 100% !important;
-      margin-left: 0 !important;
-    }
+		.main-container {
+			width: 100% !important;
+			margin-left: 0 !important;
+		}
 
-    .fandom-community-header__background.fullScreen {
-      width: 100% !important;
-    }
-  }
+		.fandom-community-header__background.fullScreen {
+			width: 100% !important;
+		}
+	}
 
-  if sticky_header {
-    .fandom-sticky-header {
-      transform: translateY(100%) !important;
-    }
+	if sticky_header {
+		.fandom-sticky-header {
+			transform: translateY(100%) !important;
+		}
 
-    .community-header-wrapper {
-      display: none !important;
-    }
+		.community-header-wrapper {
+			display: none !important;
+		}
 
-    .page {
-      margin-top: 46px !important;
-    }
-  }
+		.page {
+			margin-top: 46px !important;
+		}
+	}
 
-  if hide_comments {
-    #mw-data-after-content {
-      display: none !important;
-    }
-  }
+	if hide_comments {
+		#mw-data-after-content {
+			display: none !important;
+		}
+	}
 }

@@ -13,18 +13,18 @@
 ==/UserStyle== */
 
 @-moz-document domain("askubuntu.com"), domain("mathoverflow.net"), domain("serverfault.com"), domain("stackapps.com"), domain("stackexchange.com"), domain("stackoverflow.com"), domain("superuser.com") {
-  body {
-    /* use Comic Sans  everywhere :^) */
-    --ff-sans: var(--text-font), -apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
-    /* use Fantasque Sans Mono for inline code blocks and code snippets */
-    --ff-mono: var(--monospace-font), ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
-  }
+	body {
+		/* use Comic Sans  everywhere :^) */
+		--ff-sans: var(--text-font), -apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
+		/* use Fantasque Sans Mono for inline code blocks and code snippets */
+		--ff-mono: var(--monospace-font), ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
+	}
 
-  /* make share link more noticeable */
-  .js-share-link {
-    color: var(--orange-500) !important;
-  }
-  .js-share-link:hover {
-    color: var(--orange-400) !important;
-  }
+	/* make share link more noticeable */
+	.js-share-link {
+		color: var(--orange-500) !important;
+	}
+	.js-share-link:hover {
+		color: var(--orange-400) !important;
+	}
 }
