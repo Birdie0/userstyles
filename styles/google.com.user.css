@@ -9,6 +9,7 @@
 @updateURL    https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/google.com.user.css
 @license      MIT
 @preprocessor stylus
+
 @var checkbox hide_people_also_search_for "Hide People also search for" 1
 @var checkbox hide_related_searches       "Hide Related searches"       0
 ==/UserStyle== */
