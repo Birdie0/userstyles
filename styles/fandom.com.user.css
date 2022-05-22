@@ -14,10 +14,10 @@
 @var checkbox hide_footer      "Hide Footer"      1
 @var checkbox hide_toolbar     "Hide Toolbar"     1
 @var checkbox hide_right_rail  "Hide Right Rail"  0
+@var checkbox narrow_content   "Narrow Content"   0
 @var checkbox hide_left_bar    "Hide Left Bar"    0
 @var checkbox sticky_header    "Sticky Header"    0
 @var checkbox hide_comments    "Hide Comments"    0
-@var checkbox narrow_content   "Narrow Content"   0
 ==/UserStyle== */
 
 @-moz-document domain("fandom.com") {
