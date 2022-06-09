@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Cleaner Fandom.com
-@version      3.1.0
+@version      3.1.2
 @namespace    github.com/Birdie0/userstyles
 @description  Unclutter website look
 @author       Birdie0
@@ -17,8 +17,9 @@
 @var checkbox narrow_content   "Narrow Content"                   1
 @var checkbox hide_left_bar    "Hide Left Bar"                    1
 @var checkbox sticky_header    "Sticky Header"                    1
-@var checkbox hide_comments    "Hide Comments"                    1
+@var checkbox hide_comments    "Hide Comments"                    0
 @var checkbox hide_suggested   "Hide Others like you also viewed" 1
+@var checkbox hide_survey      "Hide Survey popup"                1
 ==/UserStyle== */
 
 @-moz-document domain("fandom.com") {
@@ -99,6 +100,12 @@
 
 	if hide_suggested {
 		.render-wiki-recommendations {
+			display: none !important;
+		}
+	}
+
+	if hide_survey_popup {
+		#SurveyModule {
 			display: none !important;
 		}
 	}
