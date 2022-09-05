@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Cleaner Fandom.com
-@version      3.3.1
+@version      3.3.2
 @namespace    github.com/Birdie0/userstyles
 @description  Unclutter website look
 @author       Birdie0
@@ -57,10 +57,13 @@
 	}
 
 	if narrow_content {
-		html.is-content-expanded .resizable-container {
+		html,
+		body {
+			&.is-content-expanded .resizable-container {
 				max-width: calc(100% - 336px) !important;
 				width: calc(95% - 336px) !important;
 			}
+		}
 
 		.resizable-container {
 			max-width: calc(1236px - 336px) !important;
