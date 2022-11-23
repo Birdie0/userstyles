@@ -19,6 +19,7 @@ You need an extention to use these:
 * mee6.xyz - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mee6.xyz.user.css)
 * mynoise.net - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mynoise.net.user.css)
 * stackoverflow.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/stackoverflow.com.user.css)
+* mail.google.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mail.google.com.user.css)
 
 ## Gallery
 
@@ -68,6 +69,14 @@ You need an extention to use these:
   |before|after|
   |---|---|
   |![before](images/stackoverflow_before.png)|![after](images/stackoverflow_after.png)|
+</details>
+
+<details>
+  <summary>Gmail</summary>
+
+  |before|after|
+  |---|---|
+  |![before](images/gmail_before.png)|![after](images/gmail_after.png)|
 </details>
 
 ## P.S.
