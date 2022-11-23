@@ -12,6 +12,7 @@
 
 @var checkbox hide_sidebars "Hide sidebars" 1
 ==/UserStyle== */
+
 @-moz-document domain("twitter.com") {
 	if hide_sidebars {
 		[data-testid="sidebarColumn"], [role="banner"] {
