@@ -1,0 +1,33 @@
+/* ==UserStyle==
+@name         Better Gmail.com
+@version      1.0.0
+@namespace    github.com/Birdie0/userstyles
+@description  Improve Gmail look
+@author       Birdie0
+@homepageURL  https://github.com/Birdie0/userstyles
+@supportURL   https://github.com/Birdie0/userstyles/issues
+@updateURL    https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mail.google.com.user.css
+@license      MIT
+@preprocessor stylus
+
+@var checkbox shrink_email_list "Shrink Email List" 1
+@var checkbox no_gray_sidebar "No Gray Sidebar" 1
+==/UserStyle== */
+
+@-moz-document domain("mail.google.com") {
+	if shrink_email_list {
+		.Tm.aeJ {
+			height: unset !important;
+			max-height: calc(100vh - 180px) !important;
+		}
+	}
+
+	if no_gray_sidebar {
+		.aeN.WR.nH.oy8Mbf.bhZ {
+			&.bym, &.bjB {
+				background-color: transparent !important;
+				backdrop-filter: blur(3px) contrast(99%) !important;
+			}
+		}
+	}
+}
