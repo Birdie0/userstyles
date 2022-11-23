@@ -1,0 +1,26 @@
+/* ==UserStyle==
+@name         Cleaner Twitter.com
+@version      1.0.0
+@namespace    github.com/Birdie0/userstyles
+@description  Unclutter website look
+@author       Birdie0
+@homepageURL  https://github.com/Birdie0/userstyles
+@supportURL   https://github.com/Birdie0/userstyles/issues
+@updateURL    https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/twitter.com.user.css
+@license      MIT
+@preprocessor stylus
+
+@var checkbox hide_sidebars "Hide sidebars" 1
+==/UserStyle== */
+@-moz-document domain("twitter.com") {
+	if hide_sidebars {
+		[data-testid="sidebarColumn"], [role="banner"] {
+			opacity: 0 !important;
+			transition: opacity .5s;
+
+			&:hover {
+				opacity: unset !important;
+			}
+		}
+	}
+}
