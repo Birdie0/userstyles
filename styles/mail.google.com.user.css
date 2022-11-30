@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Better Gmail.com
-@version      1.1.0
+@version      1.1.1
 @namespace    github.com/Birdie0/userstyles
 @description  Improve Gmail look
 @author       Birdie0
@@ -14,7 +14,7 @@
 @var checkbox no_gray_sidebar    "No Gray Sidebar"    1
 @var checkbox custom_background  "Custom background"  1
 @var color    background_color   "Background color"   #ffffff
-@var range    background_opacity "Background opacity" [0.8, 0.01, 1, 0.01]
+@var range    background_opacity "Background opacity" [0.4, 0.01, 1, 0.01]
 ==/UserStyle== */
 
 @-moz-document domain("mail.google.com") {
