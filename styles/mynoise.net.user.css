@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        Better MyNoise.net
-@version     1.1.1
+@version     2.0.0
 @namespace   github.com/Birdie0/userstyles
 @description Disable animations for better persofmance
 @author      Birdie0
@@ -11,17 +11,8 @@
 ==/UserStyle== */
 
 @-moz-document domain("mynoise.net") {
-	/* disable moving and fading background effects */
-	#bgimage {
-		opacity: 1 !important;
-	}
+	/* disable moving background effect */
 	#bgcontainer {
 		transform: none !important;
-	}
-
-	/* disable side drawers animation */
-	.Lslide, .Rslide {
-		transition-duration: 0s !important;
-		-webkit-transition-duration: 0s !important;
 	}
 }
