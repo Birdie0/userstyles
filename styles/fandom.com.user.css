@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Cleaner Fandom.com
-@version      3.3.3
+@version      3.3.4
 @namespace    github.com/Birdie0/userstyles
 @description  Unclutter website look
 @author       Birdie0
@@ -124,6 +124,9 @@
 	}
 
 	if hide_ads {
+		#rail-boxad-wrapper,
+		#WikiaAdInContentPlaceHolder,
+		.gpt-ad,
 		.top-ads-container,
 		.bottom-ads-container {
 			display: none !important;
