@@ -48,19 +48,11 @@ You need an extention to use these:
 </details>
 
 <details>
-  <summary>MEE6</summary>
-
-  |before|after|
-  |---|---|
-  |![before](images/mee6_before.png)|![after](images/mee6_after.png)|
-</details>
-
-<details>
   <summary>MyNoise</summary>
 
   |before|after|
   |---|---|
-  |![before](images/mynoise_before.gif)|![after](images/mynoise_after.gif)|
+  |-|disabled parallax effect|
 </details>
 
 <details>

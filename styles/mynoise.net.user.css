@@ -11,7 +11,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("mynoise.net") {
-	/* disable moving background effect */
+	/* disable parallax effect */
 	#bgcontainer {
 		transform: none !important;
 	}
