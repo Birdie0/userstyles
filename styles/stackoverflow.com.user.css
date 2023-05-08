@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name        Comic StackOverflow.com
-@version     1.2.1
+@version     1.2.2
 @namespace   github.com/Birdie0/userstyles
 @description Comic Sans experience
 @author      Birdie0
@@ -16,7 +16,7 @@
 @-moz-document domain("askubuntu.com"), domain("mathoverflow.net"), domain("serverfault.com"), domain("stackapps.com"), domain("stackexchange.com"), domain("stackoverflow.com"), domain("superuser.com") {
 	body {
 		/* use Comic Sans  everywhere :^) */
-		--ff-sans: var(--text-font), -apple-system, BlinkMacSystemFont, "Segoe UI", "Liberation Sans", sans-serif;
+		--ff-sans: var(--text-font), -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted", "Segoe UI", "Liberation Sans", sans-serif;
 		/* use Fantasque Sans Mono for inline code blocks and code snippets */
 		--ff-mono: var(--monospace-font), ui-monospace, "Cascadia Mono", "Segoe UI Mono", "Liberation Mono", Menlo, Monaco, Consolas, monospace;
 	}
