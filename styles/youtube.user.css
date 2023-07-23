@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name           Less distraction YouTube
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Make YouTube less distractive
+@author         Birdie0
+@preprocessor   stylus
+
+@var checkbox hide_related        'Hide Related column'   1
+@var checkbox hide_comments       'Hide Comments section' 1
+@var checkbox hide_playback_line  'Hide playback line'    1
+@var checkbox hide_shorts_section 'Hide Shorts section'   1
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+	if hide_related {
+		#related {
+			display: none !important;
+		}
+	}
+
+	if hide_comments {
+		#comments {
+			display: none !important;
+		}
+	}
+	
+	if hide_playback_line {
+		ytd-thumbnail-overlay-resume-playback-renderer {
+			display: none !important;
+		}
+	}
+	
+	if hide_shorts_section {
+		[is-shorts],
+		ytd-reel-shelf-renderer {
+			display: none !important;
+		}
+	}
+}

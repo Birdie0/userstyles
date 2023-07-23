@@ -20,6 +20,7 @@ You need an extention to use these:
 * stackoverflow.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/stackoverflow.com.user.css)
 * mail.google.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mail.google.com.user.css)
 * twitter.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/twitter.com.user.css)
+* youtube.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/twitter.com.user.css)
 
 ## Gallery
 
@@ -77,6 +78,14 @@ You need an extention to use these:
   |before|after|
   |---|---|
   |![before](images/twitter_before.png)|![after](images/twitter_after.png)|
+</details>
+
+<details>
+  <summary>YouTube</summary>
+
+  |before|after|
+  |---|---|
+  |![before](images/youtube_before.png)|![after](images/youtube_after.png)|
 </details>
 
 ## P.S.
