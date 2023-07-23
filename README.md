@@ -20,7 +20,7 @@ You need an extention to use these:
 * stackoverflow.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/stackoverflow.com.user.css)
 * mail.google.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/mail.google.com.user.css)
 * twitter.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/twitter.com.user.css)
-* youtube.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/twitter.com.user.css)
+* youtube.com - [![Install with Stylus](https://img.shields.io/badge/Install%20with-Stylus-00adad)](https://raw.githubusercontent.com/Birdie0/userstyles/master/styles/youtube.com.user.css)
 
 ## Gallery
 
