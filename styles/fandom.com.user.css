@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Cleaner Fandom.com
-@version      3.3.4
+@version      3.3.5
 @namespace    github.com/Birdie0/userstyles
 @description  Unclutter website look
 @author       Birdie0
@@ -92,7 +92,7 @@
 
 	if sticky_header {
 		.fandom-sticky-header {
-			transform: translateY(100%) !important;
+			transform: translateY(calc(100% - 1px)) !important;
 		}
 
 		.community-header-wrapper {
