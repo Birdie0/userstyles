@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Cleaner Fandom.com
-@version      3.3.6
+@version      3.3.7
 @namespace    github.com/Birdie0/userstyles
 @description  Unclutter website look
 @author       Birdie0
@@ -95,7 +95,8 @@
 			transform: translateY(calc(100% - 1px)) !important;
 		}
 
-		.community-header-wrapper {
+		.community-header-wrapper,
+		.global-registration-buttons {
 			display: none !important;
 		}
 
