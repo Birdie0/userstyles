@@ -27,13 +27,13 @@
 			display: none !important;
 		}
 	}
-	
+
 	if hide_playback_line {
 		ytd-thumbnail-overlay-resume-playback-renderer {
 			display: none !important;
 		}
 	}
-	
+
 	if hide_shorts_section {
 		[is-shorts],
 		ytd-reel-shelf-renderer {

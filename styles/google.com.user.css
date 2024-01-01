@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Better Google.com
-@version      1.2.0
+@version      1.2.1
 @namespace    github.com/Birdie0/userstyles
 @description  Hide annoying "People also search for" box
 @author       Birdie0
@@ -14,7 +14,8 @@
 @var checkbox hide_related_searches       "Hide Related searches"       0
 ==/UserStyle== */
 
-@-moz-document regexp("^https?://www\\.google\\.(?:com|[a-z]{2})(?:\\.[a-z]{2})?/search\\?.+") {
+/* regex should match all supported domains: https://www.google.com/supported_domains */
+@-moz-document regexp("^https?://www\\.google\\.[a-z]{2,3}(?:\\.[a-z]{2})?/search\\?.+") {
 	if hide_people_also_search_for {
 		.AUiS2 {
 			display: none !important;
