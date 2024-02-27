@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Cleaner Fandom.com
-@version      3.3.7
+@version      3.3.8
 @namespace    github.com/Birdie0/userstyles
 @description  Unclutter website look
 @author       Birdie0
@@ -72,7 +72,8 @@
 	}
 
 	if hide_left_bar {
-		.global-navigation {
+		.global-navigation,
+		.global-explore-navigation {
 			display: none !important;
 		}
 
