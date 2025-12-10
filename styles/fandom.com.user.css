@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Cleaner Fandom.com
-@version      3.3.8
+@version      3.4.0
 @namespace    github.com/Birdie0/userstyles
 @description  Unclutter website look
 @author       Birdie0
@@ -17,6 +17,7 @@
 @var checkbox narrow_content   "Narrow Content"                   1
 @var checkbox hide_left_bar    "Hide Left Bar"                    1
 @var checkbox sticky_header    "Sticky Header"                    1
+@var checkbox hide_discussions "Hide Discussions"                 1
 @var checkbox hide_comments    "Hide Comments"                    0
 @var checkbox hide_suggested   "Hide Others like you also viewed" 1
 @var checkbox hide_survey      "Hide Survey popup"                1
@@ -103,6 +104,12 @@
 
 		.page {
 			margin-top: 46px !important;
+		}
+	}
+
+	if hide_discussions {
+		#article-discussions {
+			display: none !important;
 		}
 	}
 
