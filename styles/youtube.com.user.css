@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Less distraction YouTube
-@version      1.2.1
+@version      1.3.0
 @namespace    github.com/openstyles/stylus
 @description  Make YouTube less distractive
 @author       Birdie0
@@ -14,6 +14,7 @@
 @var checkbox hide_playback_line  'Hide playback line'    1
 @var checkbox hide_shorts_section 'Hide Shorts section'   1
 @var checkbox disable_pink        'Disable pink gradient' 1
+@var checkbox hide_ai_summary     'Hide AI Summary'       1
 ==/UserStyle== */
 
 @-moz-document domain("youtube.com") {
@@ -34,7 +35,8 @@
 	}
 
 	if hide_playback_line {
-		ytd-thumbnail-overlay-resume-playback-renderer {
+		ytd-thumbnail-overlay-resume-playback-renderer,
+		yt-thumbnail-overlay-progress-bar-view-model {
 			display: none !important;
 		}
 	}
@@ -47,12 +49,19 @@
 	}
 
 	if disable_pink {
-		.ytp-play-progress {
+		.ytp-play-progress,
+		.ytThumbnailOverlayProgressBarHostWatchedProgressBarSegment {
 			background: #f03 !important;
 		}
 
 		#progress-bar.ytmusic-player-bar {
 			--paper-slider-active-color: #f03 !important;
+		}
+	}
+
+	if hide_ai_summary {
+		#expandable-metadata {
+			display: none !important;
 		}
 	}
 }
