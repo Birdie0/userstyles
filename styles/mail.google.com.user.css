@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name         Better Gmail.com
-@version      1.2.0
+@version      1.2.1
 @namespace    github.com/Birdie0/userstyles
 @description  Improve Gmail look
 @author       Birdie0
@@ -28,7 +28,7 @@
 	}
 
 	if no_gray_sidebar {
-		.aeN.WR.nH.oy8Mbf.bhZ {
+		.bhZ {
 			&.bym, &.bjB {
 				background-color: transparent !important;
 				backdrop-filter: blur(3px) contrast(99%) !important;
